@@ -7,7 +7,7 @@
                     @if($banner->count()>0)
                     @foreach ($banner as $value)
                         <!-- Single Slide Start -->
-                    <div class="ht-single-slide" style="background-image: url({{asset('/uploads' .$value->image)}})">
+                    <div class="ht-single-slide" style="background-image: url({{asset('/uploads/' .$value->image)}})">
                         <div class="ht-hero-content-one container">
                             {{-- <h3>For Get Me Not</h3> --}}
                             <h1 class="cssanimation leDoorCloseLeft sequence title-logo">{{$value->title}}</h1>
